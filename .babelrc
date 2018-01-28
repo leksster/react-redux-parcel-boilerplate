@@ -1,0 +1,15 @@
+{
+  "presets": ["env", "react", "es2015", "stage-0"],
+  "plugins": [
+    "transform-class-properties",
+    "transform-object-rest-spread",
+    ["module-resolver", {
+      "root": ["./src"],
+      "alias": {
+        "concepts": "./src/state/concepts",
+        "views": "./src/views",
+        "public": "./public/"
+      }
+    }]
+  ]
+}

@@ -1,0 +1,4 @@
+# Ignore bundles and cache
+/.cache/*
+/dist
+/node_modules
